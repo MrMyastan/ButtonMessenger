@@ -21,6 +21,3 @@ I've tested the plugin using a Spigot 1.16.1 server and made the plugin using th
 - Probably easiest to write the message first and then paste webhook link so you aren't writing the message at the edge of the message bar
 - Hooked buttons need to have a webhook to send to at the mo, they can't just broadcast a message on the server (also they will always broadcast the message on the server), the two always go together
 - When getting the block a player is looking at it uses imprecise targeting, so every block be it sand or torches etc is treated as 1x1x1
-
-
-T
