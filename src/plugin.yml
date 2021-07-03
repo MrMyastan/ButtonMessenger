@@ -1,0 +1,18 @@
+name: ButtonMessenger
+main: games.skweekychair.buttonmessenger.ButtonMessengerPlugin
+version: 1.0
+api-version: 1.16
+commands:
+  hook:
+    description: Attach a message to be broadcast and sent to a webhook to the targeted button
+    usage: /<command> [webhook link] [message]
+    permission: buttonmessenger.hook
+  unhook:
+    description: Remove attached message and webhook from targeted button
+    usage: /<command>
+    permission: buttonmessenger.unhook
+permissions:
+  buttonmessenger.hook:
+    default: op
+  buttonmessenger.unhook:
+    default: op
