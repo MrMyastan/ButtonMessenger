@@ -23,4 +23,4 @@ I've tested the plugin using a Spigot 1.16.1 server and made the plugin using th
 - When getting the block a player is looking at it uses imprecise targeting, so every block be it sand or torches etc is treated as 1x1x1
 
 
-Testing
+Testin
