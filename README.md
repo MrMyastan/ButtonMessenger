@@ -15,8 +15,9 @@ I've tested the plugin using a Spigot 1.16.1 server and made the plugin using th
   - look at button and use this command to remove the webhook/message to broadcast
   - ops only by default, permission is buttonmessenger.unhook
 - Buttons save across restarts
-
 # Things to note
 - If someone breaks a hooked button as long as they replace the button on the same block the hook will still work
 - Breaking a button does not unhook it, only the command does
 - Probably easiest to write the message first and then paste webhook link so you aren't writing the message at the edge of the message bar
+- Hooked buttons need to have a webhook to send to at the mo, they can't just broadcast a message on the server (also they will always broadcast the message on the server), the two always go together
+- When getting the block a player is looking at it uses imprecise targeting, so every block be it sand or torches etc is treated as 1x1x1
