@@ -73,7 +73,6 @@ public class WebhookSendTask extends BukkitRunnable {
             new WarnAndLogTask("The webhook link for the button at (x;y;z) " + button.getID() + " is an invalid url.", player, logger).runTask(plugin);
         } catch (IOException e) {
             new WarnAndLogTask(String.format("An IOException occurred trying to send to a button's webhook.\nButton's location (x;y;z): %s", button.getID()), "An IOException occurred trying to send to this button's webhook with message:\n" + e.getMessage(), player, logger, e).runTask(plugin);
-
         }
         
     }
